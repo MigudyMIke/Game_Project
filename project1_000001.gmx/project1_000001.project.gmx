@@ -31,6 +31,9 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_dialogue.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_bace</font>
   </fonts>
@@ -40,7 +43,7 @@
       <object>objects\obj_block</object>
     </objects>
     <object>objects\obj_npc</object>
-    <object>objects\obj_TestGit</object>
+    <object>objects\obj_dialogue</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
