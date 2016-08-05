@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sou_move_curser</sound>
+    <sound>sound\sou_select_curser</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="pc">
       <sprites name="pc1">
@@ -19,6 +22,9 @@
       <sprite>sprites\spr_block</sprite>
     </sprites>
     <sprite>sprites\spr_rm_next</sprite>
+    <sprites name="menu">
+      <sprite>sprites\spr_sm_select</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
@@ -33,11 +39,13 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_var.gml</script>
+    <script>scripts\scr_globalvar_set.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_bace</font>
     <font>fonts\fnt_code</font>
+    <font>fonts\fnt_op_st</font>
+    <font>fonts\fnt_op_title</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
@@ -49,9 +57,14 @@
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
     </objects>
+    <objects name="menu">
+      <object>objects\obj_sm</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_test2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
