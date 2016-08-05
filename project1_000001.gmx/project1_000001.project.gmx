@@ -15,11 +15,31 @@
         <sprite>sprites\spr_pc1_walk_w</sprite>
       </sprites>
     </sprites>
+    <sprites name="terrain">
+      <sprite>sprites\spr_block</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="tile set">
+      <background>background\ts_inside</background>
+      <background>background\ts_inside_room</background>
+      <background>background\ts_park</background>
+      <background>background\ts_town</background>
+      <background>background\ts</background>
+      <background>background\bg_outside_house</background>
+      <background>background\bg_out_side_plaza</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_bace</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
+    <objects name="terrain">
+      <object>objects\obj_block</object>
+    </objects>
+    <object>objects\obj_npc</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
