@@ -55,34 +55,36 @@ move_speed = 7;
           <argument>
             <kind>1</kind>
             <string>///Movement and Collision
-key_up = -keyboard_check(ord("W"));
-key_down = keyboard_check(ord("S"));
-key_left = -keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-
-h_walk = key_left + key_right;
-v_walk = key_up + key_down;
-
-h_sp = h_walk * move_speed;
-v_sp = v_walk * move_speed;
-
-//Horizontal
-if(place_meeting(x + h_sp, y, obj_block)){
-    while(!place_meeting(x + sign(h_sp), y, obj_block)){
-    x += sign(h_sp);
+if (var_pause == 0)
+{
+    key_up = -keyboard_check(ord("W"));
+    key_down = keyboard_check(ord("S"));
+    key_left = -keyboard_check(ord("A"));
+    key_right = keyboard_check(ord("D"));
+    
+    h_walk = key_left + key_right;
+    v_walk = key_up + key_down;
+    
+    h_sp = h_walk * move_speed;
+    v_sp = v_walk * move_speed;
+    
+    //Horizontal
+    if(place_meeting(x + h_sp, y, obj_block)){
+        while(!place_meeting(x + sign(h_sp), y, obj_block)){
+        x += sign(h_sp);
+        }
+        h_sp = 0;
     }
-    h_sp = 0;
-}
-
-
-//Vertical
-if(place_meeting(x, y + v_sp, obj_block)){
-    while(!place_meeting(x, y + sign(v_sp), obj_block)){
-    y += sign(v_sp);
+    
+    
+    //Vertical
+    if(place_meeting(x, y + v_sp, obj_block)){
+        while(!place_meeting(x, y + sign(v_sp), obj_block)){
+        y += sign(v_sp);
+        }
+        v_sp = 0;
     }
-    v_sp = 0;
 }
-
 x += h_sp;
 y += v_sp;
 
@@ -125,19 +127,13 @@ if (var_pause==0||var_pause ==4)
             if (var_pause == 4)
             {
                 instance_create(1, 1, obj_pm);
-                obj_pm.visible = true;
             }
             if (var_pause = 0)
             {
-                obj_pm.visible = false;
                 with (obj_pm)
-                    {
-                        instance_destroy();
-                    }
-                with(obj_pm_select)
-                    {
-                        instance_destroy();
-                    }
+                {
+                    instance_destroy();
+                }
             }
     }
 }
