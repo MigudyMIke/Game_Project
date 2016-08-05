@@ -47,7 +47,6 @@
     <font>fonts\fnt_code</font>
     <font>fonts\fnt_op_st</font>
     <font>fonts\fnt_op_title</font>
-    <font>fonts\font4</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>

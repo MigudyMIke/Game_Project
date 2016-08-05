@@ -67,6 +67,7 @@
             <kind>1</kind>
             <string>x = 120;
 y = 315;
+var_menu = 0;
 </string>
           </argument>
         </arguments>

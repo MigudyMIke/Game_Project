@@ -65,7 +65,11 @@ if (y &gt;= (view_yview[view_current] + 311)){
         y=y-100;
         var_menu = var_menu - 1;
         }
-}  
+}
+if (keyboard_check(vk_escape))
+{
+    room_goto(rm_start);
+}
 ///switch room
 //Resume
 if (var_menu = 0){
@@ -115,7 +119,7 @@ if (var_menu = 4){
             instance_destroy();
         }
         var_pause = 0;
-        room_goto(rm_start_menu);
+        room_goto(rm_start);
     }
 }
 //Quit
