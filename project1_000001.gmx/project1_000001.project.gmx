@@ -18,6 +18,7 @@
     <sprites name="terrain">
       <sprite>sprites\spr_block</sprite>
     </sprites>
+    <sprite>sprites\spr_rm_next</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
@@ -31,8 +32,12 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_var.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_bace</font>
+    <font>fonts\fnt_code</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
@@ -41,6 +46,9 @@
     </objects>
     <object>objects\obj_npc</object>
     <object>objects\obj_TestGit</object>
+    <objects name="trigger">
+      <object>objects\obj_rm_next</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
