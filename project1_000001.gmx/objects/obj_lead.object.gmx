@@ -75,25 +75,16 @@ if (keyboard_check(ord("A")))
     image_speed = 0.2;
 }
 //idel******************************************************************************************************************************
-if (keyboard_check(ord("A")) = false)
+if ((keyboard_check(ord("A")) = false) &amp;&amp; (keyboard_check(ord("W")) = false) &amp;&amp; (keyboard_check(ord("D")) = false) &amp;&amp; (keyboard_check(ord("S")) = false))
 {
-    if (keyboard_check(ord("W")) = false)
-    {
-        if (keyboard_check(ord("D")) = false)
-        {
-            if (keyboard_check(ord("S")) = false)
-            {
-                image_speed = 0;
-                image_index = 0;
-            }
-        }
-    }
+    image_speed = 0;
+    image_index = 0;
 }
 //Room Limit************************************************************************************************************************
-x = min(x,room_width-64);
+x = min(x,room_width- sprite_width);
 x = max(x,0);
 
-y = min(y,room_height-120);
+y = min(y,room_height- sprite_height);
 y = max(y,0);
 </string>
           </argument>
