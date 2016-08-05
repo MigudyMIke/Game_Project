@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\sou_move_curser</sound>
     <sound>sound\sou_select_curser</sound>
+    <sound>sound\snd_music</sound>
+    <sound>sound\snd_zelda</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="pc">

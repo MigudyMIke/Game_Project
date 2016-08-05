@@ -57,6 +57,7 @@ move_speed = 7;
             <string>///Movement and Collision
 if (var_pause == 0)
 {
+    depth = -y;
     key_up = -keyboard_check(ord("W"));
     key_down = keyboard_check(ord("S"));
     key_left = -keyboard_check(ord("A"));
