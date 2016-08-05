@@ -108,7 +108,71 @@ else{
 }
 
 
+//Pause Menu***********************************************************
 
+if (var_pause==0||var_pause ==4)
+{ 
+    if (keyboard_check_pressed(vk_escape))
+    {
+        if (var_pause == 0)
+        {
+            var_pause = 4;
+        }
+        else
+        {
+            var_pause = 0;
+        }
+            if (var_pause == 4)
+            {
+                instance_create(1, 1, obj_pm);
+                obj_pm.visible = true;
+            }
+            if (var_pause = 0)
+            {
+                obj_pm.visible = false;
+                with (obj_pm)
+                    {
+                        instance_destroy();
+                    }
+                with(obj_pm_select)
+                    {
+                        instance_destroy();
+                    }
+            }
+    }
+}
+//Stat Menu****************************************************************
+if (var_pause==0||var_pause ==3)
+{ 
+    if (keyboard_check_pressed(vk_shift))
+    {
+        if (var_pause == 0)
+        {
+            var_pause = 3;
+        }
+        else
+        {
+            var_pause = 0;
+        }
+            if (var_pause == 3)
+            {
+                instance_create(1, 1, obj_stat_menu);
+                obj_stat_menu.visible = true;
+            }
+            if (var_pause = 0)
+            {
+                obj_stat_menu.visible = false;
+                with (obj_stat_menu)
+                    {
+                        instance_destroy();
+                    }
+                with(obj_stat_menu_select)
+                    {
+                        instance_destroy();
+                    }
+            }
+    }
+}
 //Room Limit
 x = min(x,room_width - sprite_width);
 x = max(x,0);
