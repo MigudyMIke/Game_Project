@@ -43,6 +43,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_globalvar_set.gml</script>
+    <script>scripts\scr_dialogue.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_bace</font>
@@ -66,6 +67,7 @@
       <object>objects\obj_options</object>
       <object>objects\obj_pm</object>
     </objects>
+    <object>objects\obj_dialogue</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
