@@ -27,7 +27,11 @@
             <kind>1</kind>
             <string>sprite_index = spr_pc1_walk_s;
 image_speed = 0;
-
+v_sp = 0;
+h_sp = 0;
+h_walk = 0;
+v_walk = 0;
+move_speed = 7;
 </string>
           </argument>
         </arguments>
@@ -50,65 +54,68 @@ image_speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(ord("W")))
-{
-    y-=7;
+            <string>///Movement and Collision
+key_up = -keyboard_check(ord("W"));
+key_down = keyboard_check(ord("S"));
+key_left = -keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
+
+h_walk = key_left + key_right;
+v_walk = key_up + key_down;
+
+h_sp = h_walk * move_speed;
+v_sp = v_walk * move_speed;
+
+//Horizontal
+if(place_meeting(x + h_sp, y, obj_block)){
+    while(!place_meeting(x + sign(h_sp), y, obj_block)){
+    x += sign(h_sp);
+    }
+    h_sp = 0;
+}
+
+
+//Vertical
+if(place_meeting(x, y + v_sp, obj_block)){
+    while(!place_meeting(x, y + sign(v_sp), obj_block)){
+    y += sign(v_sp);
+    }
+    v_sp = 0;
+}
+
+x += h_sp;
+y += v_sp;
+
+if(v_sp &lt; 0){
     sprite_index = spr_pc1_walk_n;
-    image_speed = 0.2;
 }
-if (keyboard_check(ord("S")))
-{
-    y+=7;
+else if(v_sp &gt; 0){
     sprite_index = spr_pc1_walk_s;
-    image_speed = 0.2;
 }
-if (keyboard_check(ord("D")))
-{
-    x+=7;
-    sprite_index = spr_pc1_walk_e;
-    image_speed = 0.2;
-}
-if (keyboard_check(ord("A")))
-{
-    x-=7;
+else if(h_sp &lt; 0){
     sprite_index = spr_pc1_walk_w;
+}
+else if(h_sp &gt; 0){
+    sprite_index = spr_pc1_walk_e;
+}
+
+if(h_sp != 0 || v_sp != 0){
     image_speed = 0.2;
 }
-//idel******************************************************************************************************************************
-if ((keyboard_check(ord("A")) = false) &amp;&amp; (keyboard_check(ord("W")) = false) &amp;&amp; (keyboard_check(ord("D")) = false) &amp;&amp; (keyboard_check(ord("S")) = false))
-{
-    image_speed = 0;
+else{
     image_index = 0;
+    image_speed = 0;
 }
-//Room Limit************************************************************************************************************************
-x = min(x,room_width- sprite_width);
+
+
+
+//Room Limit
+x = min(x,room_width - sprite_width);
 x = max(x,0);
 
-y = min(y,room_height- sprite_height);
+y = min(y,room_height - sprite_height);
 y = max(y,0);
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_block">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
           </argument>
         </arguments>
       </action>
