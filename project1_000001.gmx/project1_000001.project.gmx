@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\sou_move_curser</sound>
     <sound>sound\sou_select_curser</sound>
+    <sound>sound\snd_music</sound>
+    <sound>sound\snd_zelda</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="pc">
@@ -44,6 +46,10 @@
     <script>scripts\scr_dialogue.gml</script>
 =======
     <script>scripts\scr_globalvar_set.gml</script>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/master
+=======
+    <script>scripts\scr_dialogue.gml</script>
 >>>>>>> refs/remotes/origin/master
   </scripts>
   <fonts name="fonts">
@@ -71,6 +77,10 @@
       <object>objects\obj_options</object>
       <object>objects\obj_pm</object>
     </objects>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/master
+=======
+    <object>objects\obj_dialogue</object>
 >>>>>>> refs/remotes/origin/master
   </objects>
   <rooms name="rooms">

@@ -75,7 +75,6 @@ switch(var_menu){
         var_op_amount = 3;
         switch(var_menu_amount){
             case 0:
-                
                 if (keyboard_check_released(vk_space))
                 {
                         /*if (var_op_fs = 1)
@@ -136,7 +135,7 @@ switch(var_menu){
                 {
                     audio_play_sound(sou_select_curser, 1, false);
                     var_op_pause = 1;
-                    if (keyboard_check_pressed(vk_right))
+                    if (keyboard_check_pressed(ord("d")))
                     {
                         if (var_master_vol &gt;= 1)
                         {
@@ -144,7 +143,7 @@ switch(var_menu){
                         }
                         sound_global_volume(var_master_vol);
                     }
-                    if (keyboard_check_pressed(vk_left))
+                    if (keyboard_check_pressed(ord("w")))
                     {
                         if (var_master_vol &lt;= 0)
                         {
@@ -227,9 +226,9 @@ switch(var_menu){
         }
     }
 }
+//controls
 if (var_op_pause = 0)
 {
-//controls
     if (y&lt;=(280+(100*var_op_amount))){   
         if (keyboard_check_pressed(vk_down)){
             audio_play_sound(sou_move_curser, 1, false);

@@ -68,6 +68,10 @@
             <string>x = 120;
 y = 315;
 var_menu = 0;
+if (!audio_is_playing(var_music_play))
+{
+    audio_play_sound(var_music_play, 100, true);
+}
 </string>
           </argument>
         </arguments>
@@ -159,6 +163,10 @@ switch (var_menu){
           <argument>
             <kind>1</kind>
             <string>///Start Menu Text
+with (obj_lead)
+{
+    instance_destroy();
+}
 //Default text
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
