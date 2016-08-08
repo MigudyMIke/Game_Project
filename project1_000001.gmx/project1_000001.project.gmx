@@ -42,15 +42,9 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-<<<<<<< HEAD
-    <script>scripts\scr_dialogue.gml</script>
-=======
     <script>scripts\scr_globalvar_set.gml</script>
-<<<<<<< HEAD
->>>>>>> refs/remotes/origin/master
-=======
     <script>scripts\scr_dialogue.gml</script>
->>>>>>> refs/remotes/origin/master
+    <script>scripts\scr_init_npc_dialogue_variables.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_bace</font>
@@ -64,9 +58,6 @@
       <object>objects\obj_block</object>
     </objects>
     <object>objects\obj_npc</object>
-<<<<<<< HEAD
-    <object>objects\obj_dialogue</object>
-=======
     <object>objects\obj_TestGit</object>
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
@@ -77,11 +68,7 @@
       <object>objects\obj_options</object>
       <object>objects\obj_pm</object>
     </objects>
-<<<<<<< HEAD
->>>>>>> refs/remotes/origin/master
-=======
     <object>objects\obj_dialogue</object>
->>>>>>> refs/remotes/origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

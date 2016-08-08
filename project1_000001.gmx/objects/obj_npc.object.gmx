@@ -53,9 +53,21 @@ boxheight = 50;
             <kind>1</kind>
             <string>if (collision_rectangle(x - 32, y - 32, x + 128, y + 160, obj_lead, false, true))
 {
-    if (keyboard_check(vk_space) &amp;&amp; !instance_exists(obj_dialogue)){
-        scr_dialogue(dialogue, 5, x, y - boxheight);
+    if(d_count &gt;= 0){
+        if (keyboard_check_pressed(vk_space)){
+            var_pause = 5;
+            if(d_count &gt; 0){
+                scr_dialogue(dialogue[d_count], 5, x, y - boxheight);
+            }
+            d_count -= 1;
+        }
     }
+}
+
+
+if(d_count &lt; 0){
+    var_pause = 0;
+    d_count = d_max;
 }
 </string>
           </argument>
