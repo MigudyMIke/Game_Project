@@ -1,5 +1,4 @@
 //scr_dialogue("Text", speed, x, y);
-
 txt = instance_create(argument2, argument3, obj_dialogue);
 with(txt){
     padding = 16;

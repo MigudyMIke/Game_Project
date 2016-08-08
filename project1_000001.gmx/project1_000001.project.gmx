@@ -44,6 +44,7 @@
   <scripts name="scripts">
     <script>scripts\scr_globalvar_set.gml</script>
     <script>scripts\scr_dialogue.gml</script>
+    <script>scripts\scr_init_npc_dialogue_variables.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_bace</font>
