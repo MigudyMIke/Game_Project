@@ -14,12 +14,11 @@
 {
     audio_is_paused(var_music_play);
 }
-/*
 if (!audio_is_playing(var_music_play))
 {
     var_music_play = snd_zelda;
     audio_play_sound(var_music_play, 100, true);
-}*/</code>
+}</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
