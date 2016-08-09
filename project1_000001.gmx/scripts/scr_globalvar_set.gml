@@ -11,3 +11,7 @@ var_music_play = snd_music;
 globalvar var_master_vol;
 var_master_vol = 1;
 
+globalvar X;
+X = 0;
+globalvar Y;
+Y = 0;

@@ -28,6 +28,11 @@
       <sprite>sprites\spr_sm_select</sprite>
       <sprite>sprites\spr_pm_select</sprite>
     </sprites>
+    <sprites name="random">
+      <sprite>sprites\spr_com_screen</sprite>
+      <sprite>sprites\spr_com_tower</sprite>
+      <sprite>sprites\spr_ran</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
@@ -58,7 +63,6 @@
       <object>objects\obj_block</object>
     </objects>
     <object>objects\obj_npc</object>
-    <object>objects\obj_TestGit</object>
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
     </objects>
@@ -69,6 +73,9 @@
       <object>objects\obj_pm</object>
     </objects>
     <object>objects\obj_dialogue</object>
+    <objects name="inter active">
+      <object>objects\obj_ran</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
