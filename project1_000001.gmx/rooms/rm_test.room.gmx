@@ -11,11 +11,9 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>var_menu = 0
-if (audio_is_playing (snd_music))
+if (!audio_is_playing (snd_zelda))
 {
-    
-if (!audio_is_playing(snd_zelda))
-{
+    audio_stop_all();
     audio_play_sound(snd_zelda, 100, true);
 }</code>
   <enableViews>-1</enableViews>
