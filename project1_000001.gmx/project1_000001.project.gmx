@@ -9,6 +9,7 @@
     <sound>sound\sou_select_curser</sound>
     <sound>sound\snd_music</sound>
     <sound>sound\snd_zelda</sound>
+    <sound>sound\snd_select_bad</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="pc">
