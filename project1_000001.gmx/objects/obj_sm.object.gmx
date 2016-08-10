@@ -68,9 +68,9 @@
             <string>x = 120;
 y = 315;
 var_menu = 0;
-if (!audio_is_playing(var_music_play))
+if !audio_is_playing(snd_music)
 {
-    audio_play_sound(var_music_play, 100, true);
+    audio_play_sound(snd_music, 100, true);
 }
 </string>
           </argument>
