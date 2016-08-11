@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>x = 120;
-y = 315;
+y = 290;
 var_menu = 0;
 </string>
           </argument>
@@ -50,44 +50,79 @@ var_menu = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (y&lt;=698){   
+            <string>if (var_menu &gt;= 0){   
     if (keyboard_check_pressed(vk_down)){
         audio_play_sound(sou_move_curser, 1, false);
-        y=128+y;
         var_menu = var_menu + 1;
+        if (var_menu &gt;= 4)
+        {
+            var_menu = 0;
+        }
     }
 }
-if (y&gt;=316){
+if (var_menu &lt;= 3){
     if (keyboard_check_pressed(vk_up)){
         audio_play_sound(sou_move_curser, 1, false);
-        y=y-128;
         var_menu = var_menu - 1;
+        if (var_menu &lt;= -1)
+        {
+            var_menu = 3;
+        }
     }
-}  
+}
+if (var_menu &gt;= 0){   
+    if (keyboard_check_pressed(vk_right)){
+        audio_play_sound(sou_move_curser, 1, false);
+        var_menu = var_menu + 2;
+        if (var_menu &gt;= 4)
+        {
+            var_menu = 0;
+        }
+    }
+}
+if (var_menu &lt;= 3){
+    if (keyboard_check_pressed(vk_left)){
+        audio_play_sound(sou_move_curser, 1, false);
+        var_menu = var_menu - 2;
+        if (var_menu &lt;= -1)
+        {
+            var_menu = 3;
+        }
+    }
+}
+  
 ///switch room
 switch (var_menu){
     //save1
     case 0:
+        x = 32*3;
+        y = 32*7;
         if (keyboard_check_pressed(vk_space)){
-            audio_play_sound(sou_select_curser, 1, false);
+            audio_play_sound(snd_select_bad, 1, false);
         }
         break;
     //save2
     case 1:
+        x = 32*3;
+        y = 32*20;
         if (keyboard_check_pressed(vk_space)){
-            audio_play_sound(sou_select_curser, 1, false);
+            audio_play_sound(snd_select_bad, 1, false);
         }
         break;
     //Save3
     case 2:
+        x = 32*26;
+        y = 32*7;
         if (keyboard_check_pressed(vk_space)){
-            audio_play_sound(sou_select_curser, 1, false);
+            audio_play_sound(snd_select_bad, 1, false);
         }
         break;
     //Save4
     case 3:
+        x = 32*26;
+        y = 32*20;
         if (keyboard_check_pressed(vk_space)){
-            audio_play_sound(sou_select_curser, 1, false);
+            audio_play_sound(snd_select_bad, 1, false);
         }
         break;
     default:
@@ -119,24 +154,33 @@ if (keyboard_check(vk_escape))
           <argument>
             <kind>1</kind>
             <string>///Start Menu Text
-//Default text
-draw_set_halign(fa_left);
-draw_set_valign(fa_middle);
-draw_set_font(fnt_op_st);
-draw_set_color(c_black);
-
-//Text Posisons
-draw_text(128,352,"Save1");
-draw_text(128,480,"Save2");
-draw_text(128,608,"Save3");
-draw_text(128,736,"Save4");
 
 //Text Title
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_op_title);
 draw_set_color(c_black);
-draw_text(64,128,"Other Lives");
+draw_text(64,96,"Other Lives");
+
+//Default text
+draw_set_halign(fa_left);
+draw_set_valign(fa_middle);
+draw_set_font(fnt_op_st);
+draw_set_color(c_black);
+//box 1
+draw_rectangle_colour( 32 * 4, 32 * 6, 32 * 25, 32 * 17, c_red, c_blue, c_blue, c_blue, false);
+//box 2
+draw_rectangle_colour( 32 * 4, 32 * 19, 32 * 25, 32 * 30, c_blue, c_red, c_blue, c_blue, false);
+//box3
+draw_rectangle_colour( 32 * 27, 32 * 6, 32 * 48, 32 * 17, c_blue, c_blue, c_red, c_blue, false);
+//box4
+draw_rectangle_colour( 32 * 27, 32 * 19, 32 * 48, 32 * 30, c_blue, c_blue, c_blue, c_red, false);
+
+//Text Posisons
+draw_text(160,224,"Save1");
+draw_text(160,640,"Save2");
+draw_text(896,224,"Save3");
+draw_text(896,640,"Save4");
 
 draw_self();
 

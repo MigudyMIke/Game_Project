@@ -51,8 +51,8 @@ Y = 0;
           <argument>
             <kind>1</kind>
             <string>room_goto(var_rm_next);
-obj_lead.x = X;
-obj_lead.y = Y;
+X = obj_lead.x;
+Y = obj_lead.y;
 </string>
           </argument>
         </arguments>
