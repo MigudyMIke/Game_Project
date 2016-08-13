@@ -46,7 +46,12 @@
       <background>background\bg_out_side_plaza</background>
     </backgrounds>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <paths name="npc path">
+      <path>paths\npc_path1</path>
+      <path>paths\path_npc1</path>
+    </paths>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_globalvar_set.gml</script>
     <script>scripts\scr_dialogue.gml</script>
@@ -64,6 +69,7 @@
       <object>objects\obj_block</object>
     </objects>
     <object>objects\obj_npc</object>
+    <object>objects\obj_npc_move</object>
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
     </objects>
@@ -72,6 +78,7 @@
       <object>objects\obj_game_load</object>
       <object>objects\obj_options</object>
       <object>objects\obj_pm</object>
+      <object>objects\obj_stat_menu</object>
     </objects>
     <object>objects\obj_dialogue</object>
     <objects name="inter active">

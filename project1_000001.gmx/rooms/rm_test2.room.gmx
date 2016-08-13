@@ -57,7 +57,6 @@
     <instance objName="obj_block" x="256" y="256" name="inst_60AD4ACF" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="800" y="256" name="inst_52E171B6" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="736" y="224" name="inst_6E4D6977" locked="0" code="var_rm_next = rm_test;&#xA;X = 736;&#xA;Y = 640;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lead" x="736" y="480" name="inst_E1CB9247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="288" y="96" w="192" h="192" xo="384" yo="0" id="10000001" name="inst_6E501A79" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

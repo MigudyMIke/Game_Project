@@ -68,6 +68,13 @@
             <string>x = 120;
 y = 315;
 var_menu = 0;
+if instance_exists(obj_lead)
+{
+    with (obj_lead)
+    {
+        instance_destroy();
+    }
+}
 if !audio_is_playing(snd_music)
 {
     audio_play_sound(snd_music, 100, true);
