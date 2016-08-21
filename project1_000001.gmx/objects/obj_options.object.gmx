@@ -309,7 +309,7 @@ draw_rectangle(32,32,1700,40,0);
 draw_set_colour(c_black);
 draw_rectangle(32,32,360,115,0);
 draw_set_colour(c_white);
-draw_text(33,30,"Options");
+draw_text(33,25,"Options");
 
 
 //sub menus
@@ -326,7 +326,7 @@ switch (var_menu){
         draw_text(43,145,"Game Play");
         draw_text(500,145,"Display");
         draw_text(1000,145,"Audio");
-        draw_set_font(fnt_code);
+        draw_set_font(fnt_op_bace);
         draw_set_color(c_gray);
         draw_set_alpha(1);
         draw_rectangle(41 ,200 ,1600 ,1050 ,0);
@@ -348,7 +348,7 @@ switch (var_menu){
         draw_text(43,145,"Game Play");
         draw_text(500,145,"Display");
         draw_text(1000,145,"Audio");
-        draw_set_font(fnt_code);
+        draw_set_font(fnt_op_bace);
         draw_set_color(c_gray);
         draw_set_alpha(1);
         draw_rectangle(41 ,200 ,1600 ,1050 ,0);
@@ -381,7 +381,7 @@ switch (var_menu){
         draw_text(43,145,"Game Play");
         draw_text(500,145,"Display");
         draw_text(1000,145,"Audio");
-        draw_set_font(fnt_code);
+        draw_set_font(fnt_op_bace);
         draw_set_color(c_gray);
         draw_set_alpha(1);
         draw_rectangle(41 ,200 ,1600 ,1050 ,0);

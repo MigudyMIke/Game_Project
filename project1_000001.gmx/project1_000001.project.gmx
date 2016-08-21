@@ -44,6 +44,7 @@
       <background>background\ts</background>
       <background>background\bg_outside_house</background>
       <background>background\bg_out_side_plaza</background>
+      <background>background\ts_convention_hall</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -58,18 +59,24 @@
     <script>scripts\scr_init_npc_dialogue_variables.gml</script>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\fnt_bace</font>
     <font>fonts\fnt_code</font>
+    <font>fonts\fnt_bace</font>
     <font>fonts\fnt_op_st</font>
     <font>fonts\fnt_op_title</font>
+    <font>fonts\fnt_op_bace</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
     <objects name="terrain">
       <object>objects\obj_block</object>
     </objects>
-    <object>objects\obj_npc</object>
-    <object>objects\obj_npc_move</object>
+    <objects name="npc">
+      <object>objects\obj_npc</object>
+      <object>objects\obj_npc_move_n</object>
+      <object>objects\obj_npc_move_s</object>
+      <object>objects\obj_npc_move_e</object>
+      <object>objects\obj_npc_move_w</object>
+    </objects>
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
     </objects>
@@ -89,6 +96,7 @@
     <room>rooms\rm_start</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm_test2</room>
+    <room>rooms\rm_convention_hall</room>
     <rooms name="menu ">
       <room>rooms\rm_game_load</room>
       <room>rooms\rm_options</room>
