@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1680" hport="1050" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1680" hport="1050" hborder="1680" vborder="1050" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -50,7 +50,19 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="obj_block" x="160" y="416" name="inst_CFBC421F" locked="0" code="" scaleX="1" scaleY="42" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="160" y="1728" name="inst_AE4B4A59" locked="0" code="" scaleX="94.9677429199219" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="3168" y="1760" name="inst_F510115E" locked="0" code="" scaleX="1" scaleY="-42.322582244873" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="512" y="416" name="inst_03DCDAAD" locked="0" code="" scaleX="84" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="160" y="416" name="inst_EC31599D" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="384" y="416" name="inst_147C984A" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="544" y="736" name="inst_8E7FB2D5" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="544" y="480" name="inst_1046927C" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="544" y="768" name="inst_ACD28A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="544" y="448" name="inst_455FEA05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block" x="1792" y="448" name="inst_233C1E22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles>
     <tile bgName="ts_convention_hall" x="192" y="192" w="192" h="256" xo="0" yo="0" id="10000229" name="inst_FDF441BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_convention_hall" x="384" y="192" w="192" h="256" xo="0" yo="0" id="10000230" name="inst_C79278DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -69,7 +81,6 @@
     <tile bgName="ts_convention_hall" x="2880" y="192" w="192" h="256" xo="0" yo="0" id="10000244" name="inst_B710DF66" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_convention_hall" x="3072" y="192" w="96" h="256" xo="0" yo="0" id="10000246" name="inst_C90F1B8A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="192" y="448" w="128" h="64" xo="256" yo="0" id="10000247" name="inst_63C11355" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="192" y="512" w="128" h="64" xo="256" yo="0" id="10000248" name="inst_7949D581" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="192" y="576" w="128" h="64" xo="256" yo="0" id="10000249" name="inst_E1FC91D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="192" y="640" w="128" h="64" xo="256" yo="0" id="10000250" name="inst_37EA54CE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="192" y="704" w="128" h="64" xo="256" yo="0" id="10000251" name="inst_6662D08E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -549,21 +560,28 @@
     <tile bgName="ts_inside" x="3136" y="1536" w="32" h="64" xo="256" yo="0" id="10000759" name="inst_2905E3D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="3136" y="1600" w="32" h="64" xo="256" yo="0" id="10000760" name="inst_049E9DAC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="3136" y="1664" w="32" h="64" xo="256" yo="0" id="10000761" name="inst_CC19F589" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="192" y="512" w="128" h="64" xo="256" yo="0" id="10000780" name="inst_F834B889" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="544" y="416" w="128" h="128" xo="512" yo="0" id="10000801" name="inst_38EC49BD" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="672" y="416" w="128" h="128" xo="512" yo="0" id="10000802" name="inst_14119F89" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="800" y="416" w="128" h="128" xo="512" yo="0" id="10000803" name="inst_30994799" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="928" y="416" w="128" h="128" xo="512" yo="0" id="10000804" name="inst_EEDA8C73" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1056" y="416" w="128" h="128" xo="512" yo="0" id="10000805" name="inst_9D738486" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1184" y="416" w="128" h="128" xo="512" yo="0" id="10000806" name="inst_ECE19BAF" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1312" y="416" w="128" h="128" xo="512" yo="0" id="10000807" name="inst_7FBCBE84" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1440" y="416" w="128" h="128" xo="512" yo="0" id="10000808" name="inst_2C34F021" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1568" y="416" w="128" h="128" xo="512" yo="0" id="10000809" name="inst_4172543F" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1696" y="416" w="128" h="128" xo="512" yo="0" id="10000810" name="inst_C7703A08" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_convention_hall" x="352" y="288" w="192" h="160" xo="224" yo="32" id="10000764" name="inst_D601149A" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="512" w="64" h="128" xo="448" yo="0" id="10000766" name="inst_F95FED8C" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="640" w="64" h="128" xo="448" yo="0" id="10000767" name="inst_E3983A2C" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="768" w="64" h="128" xo="448" yo="0" id="10000768" name="inst_98648315" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="896" w="64" h="128" xo="448" yo="0" id="10000769" name="inst_668103A7" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="1024" w="64" h="128" xo="448" yo="0" id="10000770" name="inst_A7892062" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="1152" w="64" h="128" xo="448" yo="0" id="10000771" name="inst_1BA0FD34" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="512" w="64" h="128" xo="448" yo="0" id="10000772" name="inst_9B80E63B" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="640" w="64" h="128" xo="448" yo="0" id="10000773" name="inst_0B00FF47" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="768" w="64" h="128" xo="448" yo="0" id="10000774" name="inst_7B5FBA00" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="896" w="64" h="128" xo="448" yo="0" id="10000775" name="inst_440A1A90" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="1024" w="64" h="128" xo="448" yo="0" id="10000776" name="inst_236F5022" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="1152" w="64" h="128" xo="448" yo="0" id="10000777" name="inst_BF7628D8" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="288" y="1280" w="64" h="64" xo="448" yo="128" id="10000778" name="inst_31A6247E" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_convention_hall" x="544" y="1280" w="64" h="64" xo="448" yo="128" id="10000779" name="inst_4229795E" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="544" y="672" w="128" h="128" xo="512" yo="0" id="10000791" name="inst_29633384" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="672" y="672" w="128" h="128" xo="512" yo="0" id="10000792" name="inst_B4642C1C" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="800" y="672" w="128" h="128" xo="512" yo="0" id="10000793" name="inst_520D675D" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="928" y="672" w="128" h="128" xo="512" yo="0" id="10000794" name="inst_B5F1106F" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1056" y="672" w="128" h="128" xo="512" yo="0" id="10000795" name="inst_149336D6" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1184" y="672" w="128" h="128" xo="512" yo="0" id="10000796" name="inst_21350C1C" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1312" y="672" w="128" h="128" xo="512" yo="0" id="10000797" name="inst_9F643BA5" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1440" y="672" w="128" h="128" xo="512" yo="0" id="10000798" name="inst_2B84C1A5" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1568" y="672" w="128" h="128" xo="512" yo="0" id="10000799" name="inst_42A20259" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_convention_hall" x="1696" y="672" w="128" h="128" xo="512" yo="0" id="10000800" name="inst_C2632E3E" depth="-1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

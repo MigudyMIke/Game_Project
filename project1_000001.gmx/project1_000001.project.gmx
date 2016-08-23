@@ -34,6 +34,24 @@
       <sprite>sprites\spr_com_tower</sprite>
       <sprite>sprites\spr_ran</sprite>
     </sprites>
+    <sprites name="npc">
+      <sprite>sprites\spr_npc1_s</sprite>
+      <sprite>sprites\spr_npc1_n</sprite>
+      <sprite>sprites\spr_npc1_w</sprite>
+      <sprite>sprites\spr_npc1_e</sprite>
+      <sprite>sprites\spr_npc2_n</sprite>
+      <sprite>sprites\spr_npc2_s</sprite>
+      <sprite>sprites\spr_npc2_e</sprite>
+      <sprite>sprites\spr_npc2_w</sprite>
+      <sprite>sprites\spr_npc3_s</sprite>
+      <sprite>sprites\spr_npc3_e</sprite>
+      <sprite>sprites\spr_npc3_w</sprite>
+      <sprite>sprites\spr_npc3_n</sprite>
+      <sprite>sprites\spr_npc4_s</sprite>
+      <sprite>sprites\spr_npc4_n</sprite>
+      <sprite>sprites\spr_npc4_e</sprite>
+      <sprite>sprites\spr_npc4_w</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">

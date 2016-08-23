@@ -25,12 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.3;
-image_index = 0;
-depth = -y;
-var_turnaround = 1;
+            <string>depth = -y;
+var_turnaround = 0;
 var_sprite_index1 = 0;
 var_sprite_index2 = 0;
+var_npc_sprite1 = 0;
 </string>
           </argument>
         </arguments>
