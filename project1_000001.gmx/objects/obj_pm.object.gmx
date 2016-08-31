@@ -55,14 +55,12 @@ var_manu = 0;
 if (y &lt;= (view_yview[view_current] + 797)){   
     if (keyboard_check_pressed(vk_down)){
         audio_play_sound(sou_move_curser, 1, false);
-        y=100+y;
         var_menu = var_menu + 1;
         }
 }
 if (y &gt;= (view_yview[view_current] + 311)){
     if (keyboard_check_pressed(vk_up)){
         audio_play_sound(sou_move_curser, 1, false);
-        y=y-100;
         var_menu = var_menu - 1;
         }
 }
@@ -96,6 +94,8 @@ if (var_menu = 1){
 }
 //Load
 if (var_menu = 2){
+    x = view_xview[view_current] + 700;
+    y = view_yview[view_current] + 348;
     if (keyboard_check_pressed(vk_space)){
         audio_play_sound(sou_select_curser, 1, false);
         room_goto(rm_options);
@@ -103,12 +103,16 @@ if (var_menu = 2){
 }
 //Options
 if (var_menu = 3){
+    x = view_xview[view_current] + 700;
+    y = view_yview[view_current] + 598;
     if (keyboard_check_pressed(vk_space)){
         audio_play_sound(sou_select_curser, 1, false);
     }
 }
 //Main Menu
 if (var_menu = 4){
+    x = view_xview[view_current] + 700;
+    y = view_yview[view_current] + 698;
     if (keyboard_check_pressed(vk_space)){
         audio_play_sound(sou_select_curser, 1, false);
         {
@@ -123,6 +127,8 @@ if (var_menu = 4){
 }
 //Quit
 if (var_menu = 5){
+    x = view_xview[view_current] + 700;
+    y = view_yview[view_current] + 798;
     if (keyboard_check_pressed(vk_space)){
         audio_play_sound(sou_select_curser, 1, false);
         game_end();
@@ -171,9 +177,39 @@ if (var_pause=4)
     draw_text(view_xview[view_current]+750,view_yview[view_current] + 598,"Options");
     draw_text(view_xview[view_current]+750,view_yview[view_current] + 698,"Main Menu");
     draw_text(view_xview[view_current]+750,view_yview[view_current] + 798,"Quit");
-    
-    draw_self();
+    //Resume
+    if (var_menu = 0){
+    x = view_xview[view_current] + 700;
+    y = view_yview[view_current] + 298;
+    }
+    //Save
+    if (var_menu = 1){
+        x = view_xview[view_current] + 700;
+        y = view_yview[view_current] + 398;
+    }
+    //Load
+    if (var_menu = 2){
+        x = view_xview[view_current] + 700;
+        y = view_yview[view_current] + 348;
+    }
+    //Options
+    if (var_menu = 3){
+        x = view_xview[view_current] + 700;
+        y = view_yview[view_current] + 598;
+    }
+    //Main Menu
+    if (var_menu = 4){
+        x = view_xview[view_current] + 700;
+        y = view_yview[view_current] + 698;
+    }
+    //Quit
+    if (var_menu = 5){
+        x = view_xview[view_current] + 700;
+        y = view_yview[view_current] + 798;
+    }
+        draw_self();
 }
+
 </string>
           </argument>
         </arguments>
