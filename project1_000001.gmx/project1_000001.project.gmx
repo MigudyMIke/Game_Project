@@ -55,6 +55,7 @@
       <sprite>sprites\spr_npc4_e</sprite>
       <sprite>sprites\spr_npc4_w</sprite>
     </sprites>
+    <sprite>sprites\sprite31</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
