@@ -3,7 +3,7 @@
   <spriteName>spr_rm_next</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10000000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,6 +28,38 @@
             <string>var_rm_next = 0;
 X = 0;
 Y = 0;
+instance_create ( x, y - 64, obj_enter);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (obj_lead.x &gt;= (x - 32) &amp;&amp; obj_lead.x &lt;= (x + 128))
+{
+    if (keyboard_check_pressed(vk_space))
+    {
+        room_goto(var_rm_next);
+        obj_lead.x = X;
+        obj_lead.y = Y;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -58,7 +90,7 @@ obj_lead.y = Y;
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -79,7 +111,8 @@ obj_lead.y = Y;
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(fnt_code);
-draw_text(x, y, string(room_get_name(var_rm_next)) + "#x " + string(X) + " y " + string(Y));
+draw_self();
+draw_text(self.x, self.y, string(room_get_name(var_rm_next)) + "#x " + string(X) + " y " + string(Y));
 </string>
           </argument>
         </arguments>

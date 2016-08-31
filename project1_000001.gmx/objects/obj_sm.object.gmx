@@ -121,7 +121,7 @@ switch (var_menu){
     case 0:
         if (keyboard_check_pressed(vk_space)){
             audio_play_sound(sou_select_curser, 1, false);
-            room_goto(rm_test);
+            room_goto(rm_hall_a1);
         }
         break;
     //continue

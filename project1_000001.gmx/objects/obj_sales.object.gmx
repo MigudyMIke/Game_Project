@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_block</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,11 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y;
-var_turnaround = 0;
-var_sprite_index1 = 0;
-var_sprite_index2 = 0;
-var_npc_sprite1 = 0;
+            <string>image_speed = 0;
+image_index = 0;
+depth = -y;
+boxheight = 50;
 </string>
           </argument>
         </arguments>
@@ -52,41 +51,35 @@ var_npc_sprite1 = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (var_turnaround == 0)
+            <string>if (collision_rectangle(x - 32, y - 32, x + 128, y + 160, obj_lead, false, true))
 {
-    sprite_index = var_sprite_index1;
-    y = y + 5;
-}else{
-    sprite_index = var_sprite_index2;
-    y = y - 5;
+    if(d_count &gt;= 0){
+        if (keyboard_check_pressed(vk_space)){
+            var_pause = 5;
+            if(d_count &gt; 0){
+                scr_dialogue(dialogue[d_count], 5, x, y - boxheight);
+            }
+            d_count -= 1;
+        }
+    }
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_block">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (var_turnaround == 0)
+
+
+if(d_count &lt; 0){
+    var_pause = 0;
+    d_count = d_max;
+}
+if (obj_lead.x &lt;= (x - 32) &amp;&amp; obj_lead.x &gt;= (x + 128))
 {
-    var_turnaround = 1;
+    instance_create ( x, y - 64, obj_talk);
 }else{
-    var_turnaround = 0;
+    if ( object_exists(obj_talk))
+    {
+        with(obj_talk);
+        {
+            instance_destroy();
+        }
+    }
 }
 </string>
           </argument>
