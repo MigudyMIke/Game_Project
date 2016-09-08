@@ -4,7 +4,7 @@
   <solid>-1</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -141,8 +141,8 @@ if (var_pause==0||var_pause ==4)
             }
     }
 }
-//Stat Menu**NOT READY YET***********
-/*if (var_pause==0||var_pause ==3)
+//Stat Menu
+if (var_pause==0||var_pause ==3)
 { 
     if (keyboard_check_pressed(vk_shift))
     {
@@ -157,22 +157,16 @@ if (var_pause==0||var_pause ==4)
             if (var_pause == 3)
             {
                 instance_create(1, 1, obj_stat_menu);
-                obj_stat_menu.visible = true;
             }
             if (var_pause = 0)
             {
-                obj_stat_menu.visible = false;
                 with (obj_stat_menu)
-                    {
-                        instance_destroy();
-                    }
-                with(obj_stat_menu_select)
-                    {
-                        instance_destroy();
-                    }
+                {
+                    instance_destroy();
+                }
             }
     }
-}*/
+}
 //Room Limit
 x = min(x,room_width - sprite_width);
 x = max(x,0);
