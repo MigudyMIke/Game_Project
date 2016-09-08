@@ -25,6 +25,7 @@
       <sprite>sprites\spr_block</sprite>
     </sprites>
     <sprite>sprites\spr_rm_next</sprite>
+    <sprite>sprites\spr_rm_locked</sprite>
     <sprites name="menu">
       <sprite>sprites\spr_sm_select</sprite>
       <sprite>sprites\spr_pm_select</sprite>
@@ -55,7 +56,10 @@
       <sprite>sprites\spr_npc4_e</sprite>
       <sprite>sprites\spr_npc4_w</sprite>
     </sprites>
-    <sprite>sprites\sprite31</sprite>
+    <sprites name="tutorial">
+      <sprite>sprites\spr_tutorial_move</sprite>
+    </sprites>
+    <sprite>sprites\spr_key</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
@@ -67,8 +71,12 @@
       <background>background\bg_outside_house</background>
       <background>background\bg_out_side_plaza</background>
       <background>background\ts_convention_hall</background>
+      <background>background\background11</background>
+      <background>background\ts_inside_place</background>
     </backgrounds>
     <background>background\bg_hall</background>
+    <background>background\background9</background>
+    <background>background\bg_text</background>
   </backgrounds>
   <paths name="paths">
     <paths name="npc path">
@@ -102,6 +110,7 @@
     </objects>
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
+      <object>objects\obj_locked</object>
     </objects>
     <objects name="menu">
       <object>objects\obj_sm</object>
@@ -117,18 +126,27 @@
     <object>objects\obj_talk</object>
     <object>objects\obj_enter</object>
     <object>objects\obj_pick_up</object>
+    <objects name="pick up">
+      <object>objects\obj_key</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_start</room>
-    <room>rooms\rm_test</room>
-    <room>rooms\rm_test2</room>
-    <room>rooms\rm_convention_hall</room>
-    <room>rooms\rm_blanek</room>
-    <room>rooms\rm_hall_a1</room>
-    <room>rooms\rm_hall_a2</room>
     <rooms name="menu ">
+      <room>rooms\rm_start</room>
       <room>rooms\rm_game_load</room>
       <room>rooms\rm_options</room>
+    </rooms>
+    <rooms name="test">
+      <room>rooms\rm_test</room>
+      <room>rooms\rm_test2</room>
+      <room>rooms\rm_hall_a1</room>
+      <room>rooms\rm_hall_a2</room>
+    </rooms>
+    <room>rooms\rm_blank</room>
+    <room>rooms\rm_con_loby</room>
+    <room>rooms\rm_hotel_room</room>
+    <rooms name="day 1">
+      <room>rooms\rm_tutorial</room>
     </rooms>
   </rooms>
   <help>
