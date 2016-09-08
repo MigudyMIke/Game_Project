@@ -80,6 +80,11 @@
     <script>scripts\scr_globalvar_set.gml</script>
     <script>scripts\scr_dialogue.gml</script>
     <script>scripts\scr_init_npc_dialogue_variables.gml</script>
+    <script>scripts\scr_Player_Move_State.gml</script>
+    <script>scripts\scr_Player_Pause_Menu_State.gml</script>
+    <script>scripts\scr_Player_Stats_Menu_State.gml</script>
+    <script>scripts\scr_Get_Input.gml</script>
+    <script>scripts\scr_Player_Wait.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_code</font>
