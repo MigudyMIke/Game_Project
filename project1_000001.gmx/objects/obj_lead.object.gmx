@@ -56,9 +56,6 @@ state = scr_Player_Move_State;
           <argument>
             <kind>1</kind>
             <string>script_execute(state);
-
-    
-
 </string>
           </argument>
         </arguments>
