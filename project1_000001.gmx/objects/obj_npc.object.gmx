@@ -29,6 +29,7 @@
 image_index = 0;
 depth = -y;
 boxheight = 50;
+instance_create ( x, y - 64, obj_talk);
 </string>
           </argument>
         </arguments>
@@ -51,7 +52,8 @@ boxheight = 50;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (collision_rectangle(x - 32, y - 32, x + 128, y + 160, obj_lead, false, true))
+            <string>//if (collision_rectangle(x - 32, y - 32, x + 128, y + 160, obj_lead, false, true))
+if (obj_lead.x &gt;= (self.x - 32) &amp;&amp; obj_lead.x &lt;= (self.x + 128))
 {
     if(d_count &gt;= 0){
         if (keyboard_check_pressed(vk_space)){
@@ -69,6 +71,7 @@ if(d_count &lt; 0){
     var_pause = 0;
     d_count = d_max;
 }
+
 </string>
           </argument>
         </arguments>

@@ -33,7 +33,29 @@
       <sprite>sprites\spr_com_screen</sprite>
       <sprite>sprites\spr_com_tower</sprite>
       <sprite>sprites\spr_ran</sprite>
+      <sprite>sprites\spr_talk</sprite>
+      <sprite>sprites\spr_enter</sprite>
+      <sprite>sprites\spr_pick_up</sprite>
     </sprites>
+    <sprites name="npc">
+      <sprite>sprites\spr_npc1_s</sprite>
+      <sprite>sprites\spr_npc1_n</sprite>
+      <sprite>sprites\spr_npc1_w</sprite>
+      <sprite>sprites\spr_npc1_e</sprite>
+      <sprite>sprites\spr_npc2_n</sprite>
+      <sprite>sprites\spr_npc2_s</sprite>
+      <sprite>sprites\spr_npc2_e</sprite>
+      <sprite>sprites\spr_npc2_w</sprite>
+      <sprite>sprites\spr_npc3_s</sprite>
+      <sprite>sprites\spr_npc3_e</sprite>
+      <sprite>sprites\spr_npc3_w</sprite>
+      <sprite>sprites\spr_npc3_n</sprite>
+      <sprite>sprites\spr_npc4_s</sprite>
+      <sprite>sprites\spr_npc4_n</sprite>
+      <sprite>sprites\spr_npc4_e</sprite>
+      <sprite>sprites\spr_npc4_w</sprite>
+    </sprites>
+    <sprite>sprites\sprite31</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
@@ -44,26 +66,40 @@
       <background>background\ts</background>
       <background>background\bg_outside_house</background>
       <background>background\bg_out_side_plaza</background>
+      <background>background\ts_convention_hall</background>
     </backgrounds>
+    <background>background\bg_hall</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <paths name="npc path">
+      <path>paths\npc_path1</path>
+      <path>paths\path_npc1</path>
+    </paths>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_globalvar_set.gml</script>
     <script>scripts\scr_dialogue.gml</script>
     <script>scripts\scr_init_npc_dialogue_variables.gml</script>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\fnt_bace</font>
     <font>fonts\fnt_code</font>
+    <font>fonts\fnt_bace</font>
     <font>fonts\fnt_op_st</font>
     <font>fonts\fnt_op_title</font>
+    <font>fonts\fnt_op_bace</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
     <objects name="terrain">
       <object>objects\obj_block</object>
     </objects>
-    <object>objects\obj_npc</object>
+    <objects name="npc">
+      <object>objects\obj_npc</object>
+      <object>objects\obj_npc_move_n</object>
+      <object>objects\obj_npc_move_s</object>
+      <object>objects\obj_npc_move_e</object>
+      <object>objects\obj_npc_move_w</object>
+    </objects>
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
     </objects>
@@ -72,16 +108,24 @@
       <object>objects\obj_game_load</object>
       <object>objects\obj_options</object>
       <object>objects\obj_pm</object>
+      <object>objects\obj_stat_menu</object>
     </objects>
     <object>objects\obj_dialogue</object>
     <objects name="inter active">
       <object>objects\obj_ran</object>
     </objects>
+    <object>objects\obj_talk</object>
+    <object>objects\obj_enter</object>
+    <object>objects\obj_pick_up</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm_test2</room>
+    <room>rooms\rm_convention_hall</room>
+    <room>rooms\rm_blanek</room>
+    <room>rooms\rm_hall_a1</room>
+    <room>rooms\rm_hall_a2</room>
     <rooms name="menu ">
       <room>rooms\rm_game_load</room>
       <room>rooms\rm_options</room>
