@@ -50,7 +50,7 @@ if (!audio_is_playing (snd_zelda))
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1440" hview="900" xport="0" yport="0" wport="1680" hport="1050" hborder="1440" vborder="900" hspeed="100" vspeed="100"/>
+    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1680" hport="1050" hborder="1440" vborder="900" hspeed="100" vspeed="100"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -60,23 +60,18 @@ if (!audio_is_playing (snd_zelda))
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_block" x="0" y="672" name="inst_B60C6DF6" locked="0" code="" scaleX="38" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="0" y="384" name="inst_96A4F2E3" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="0" y="416" name="inst_B53F7B62" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="1024" y="384" name="inst_9C3B1947" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_npc" x="160" y="352" name="inst_C88A7C2C" locked="0" code="sprite_index = spr_pc1_walk_s;&#xA;scr_init_npc_dialogue_variables(3);&#xA;&#xA;dialogue[3] = &quot;You can add dialogue to NPC objects in the instance creation code.&quot;;&#xA;dialogue[2] = &quot;But make sure you give them dialogue, or errors will occur.&quot;;&#xA;dialogue[1] = &quot;Also, I may have to change it, but dialogue[0] isn't displayed ever.&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_npc" x="160" y="352" name="inst_C88A7C2C" locked="0" code="sprite_index = spr_pc1_walk_s;&#xA;scr_init_npc_dialogue_variables(1);&#xA;&#xA;dialogue[1] = &quot;I have a vary important quest for you. #Do you want to help me?#[UP] YES#[DOWN] NO&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc" x="384" y="352" name="inst_F017DB47" locked="0" code="sprite_index = spr_pc1_walk_s;&#xA;scr_init_npc_dialogue_variables(3);&#xA;&#xA;dialogue[3] = &quot;You can add dialogue to NPC objects in the instance creation code.&quot;;&#xA;dialogue[2] = &quot;But make sure you give them dialogue, or errors will occur.&quot;;&#xA;dialogue[1] = &quot;Also, I may have to change it, but dialogue[0] isn't displayed ever.&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="960" y="384" name="inst_9F62FA95" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="1472" y="384" name="inst_7466D429" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="1216" y="672" name="inst_EF7DBE9A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="1280" y="672" name="inst_B91F5869" locked="0" code="" scaleX="29" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_move_e" x="224" y="544" name="inst_5D25FA6E" locked="0" code="image_speed = 0.2;&#xA;var_sprite_index1 = spr_npc4_e;&#xA;var_sprite_index2 = spr_npc4_w;&#xA;var_npc_speed = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_move_e" x="672" y="544" name="inst_A639B663" locked="0" code="image_speed = 0.2;&#xA;var_sprite_index1 = spr_npc4_e;&#xA;var_sprite_index2 = spr_npc4_w;&#xA;var_npc_speed = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_move_e" x="1088" y="480" name="inst_B54E56AF" locked="0" code="image_speed = 0.2;&#xA;var_sprite_index1 = spr_npc4_e;&#xA;var_sprite_index2 = spr_npc4_w;&#xA;var_npc_speed = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_move_e" x="1376" y="512" name="inst_76A488A3" locked="0" code="image_speed = 0.4;&#xA;var_sprite_index1 = spr_npc3_e;&#xA;var_sprite_index2 = spr_npc3_w;&#xA;var_npc_speed = 5;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_move_w" x="1216" y="512" name="inst_8138EFB1" locked="0" code="image_speed = 0.2;&#xA;var_sprite_index1 = spr_npc1_w;&#xA;var_sprite_index2 = spr_npc1_e;&#xA;var_npc_speed = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_move_w" x="928" y="544" name="inst_6DD01A6E" locked="0" code="image_speed = 0.2;&#xA;var_sprite_index1 = spr_npc1_w;&#xA;var_sprite_index2 = spr_npc1_e;&#xA;var_npc_speed = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block" x="1600" y="416" name="inst_ACDD96C2" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="0" y="224" w="192" h="192" xo="384" yo="0" id="10001259" name="inst_9AEBBAE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

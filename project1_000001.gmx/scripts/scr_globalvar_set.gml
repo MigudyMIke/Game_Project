@@ -2,6 +2,10 @@ globalvar var_menu;
 var_menu = 0;
 globalvar var_pause;
 var_pause = 0;
+globalvar var_choose;
+var_choose = 0;
+globalvar var_key;
+var_key = 0;
 //fullscreen
 globalvar var_op_fs;
 var_op_fs = 0;
