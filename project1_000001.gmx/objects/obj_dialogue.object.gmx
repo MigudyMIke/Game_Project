@@ -53,7 +53,8 @@ depth = -10000000;
           <argument>
             <kind>1</kind>
             <string>//Destroy Instance
-if (keyboard_check_pressed(vk_space)){
+scr_Get_Input();
+if (key_confirm){
     instance_destroy();
 }
 </string>

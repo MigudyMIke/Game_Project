@@ -8,6 +8,11 @@ if(key_escape){
     state = scr_Player_Pause_Menu_State;
 }
 
+//Detect interactive elements
+if(key_confirm){
+    scr_Get_Interaction();
+}
+
 //Go to stats menu
 if(key_shift){
     instance_create(1, 1, obj_stat_menu)

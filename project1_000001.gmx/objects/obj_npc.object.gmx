@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_block</parentName>
+  <parentName>obj_Interactive</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -53,29 +53,7 @@ state = scr_Player_Move_State;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if (collision_rectangle(x - 32, y - 32, x + 128, y + 160, obj_lead, false, true))
-
-if (obj_lead.x &gt;= (self.x - 32) &amp;&amp; obj_lead.x &lt;= (self.x + 128))
-{
-    if(d_count &gt;= 0){
-        if (keyboard_check_pressed(vk_space)){
-            obj_lead.state = scr_Player_Wait;
-            if(d_count &gt; 0){
-                scr_dialogue(dialogue[d_count], 5, x, y - boxheight);
-            }
-            d_count -= 1;
-        }
-    }
-}
-
-if(d_count &lt; 0){
-    obj_lead.state = scr_Player_Move_State;
-    d_count = d_max;
-}
-
-
-
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

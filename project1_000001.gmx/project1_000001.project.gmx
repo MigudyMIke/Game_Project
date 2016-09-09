@@ -92,7 +92,8 @@
     <script>scripts\scr_Player_Pause_Menu_State.gml</script>
     <script>scripts\scr_Player_Stats_Menu_State.gml</script>
     <script>scripts\scr_Get_Input.gml</script>
-    <script>scripts\scr_Player_Wait.gml</script>
+    <script>scripts\scr_Get_Interaction.gml</script>
+    <script>scripts\scr_Player_Wait_For_Dialogue.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_code</font>
@@ -134,6 +135,7 @@
     <objects name="pick up">
       <object>objects\obj_key</object>
     </objects>
+    <object>objects\obj_Interactive</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu ">
