@@ -145,6 +145,7 @@
     <room>rooms\rm_blank</room>
     <room>rooms\rm_con_loby</room>
     <room>rooms\rm_hotel_room</room>
+    <room>rooms\rm_hotel_hall</room>
     <rooms name="day 1">
       <room>rooms\rm_tutorial</room>
     </rooms>
