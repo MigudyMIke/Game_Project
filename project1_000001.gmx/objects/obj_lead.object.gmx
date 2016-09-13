@@ -32,6 +32,7 @@ h_sp = 0;
 h_walk = 0;
 v_walk = 0;
 move_speed = 7;
+state = scr_Player_Move_State;
 </string>
           </argument>
         </arguments>
@@ -54,125 +55,7 @@ move_speed = 7;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Movement and Collision
-if (!var_pause)
-{
-    depth = -y;
-    //key_up = -keyboard_check(vk_up);
-    //key_down = keyboard_check(vk_down);
-    key_left = -keyboard_check(vk_left);
-    key_right = keyboard_check(vk_right);
-    
-    h_walk = key_left + key_right;
-    //v_walk = key_up + key_down;
-    
-    h_sp = h_walk * move_speed;
-    v_sp = v_walk * move_speed;
-    
-    //Horizontal
-    if(place_meeting(x + h_sp, y, obj_block)){
-        while(!place_meeting(x + sign(h_sp), y, obj_block)){
-        x += sign(h_sp);
-        }
-        h_sp = 0;
-    }
-    
-    
-    //Vertical
-    if(place_meeting(x, y + v_sp, obj_block)){
-        while(!place_meeting(x, y + sign(v_sp), obj_block)){
-        y += sign(v_sp);
-        }
-        v_sp = 0;
-    }
-}
-else{
-    h_sp = 0;
-    v_sp = 0;
-}
-x += h_sp;
-y += v_sp;
-
-if(v_sp &lt; 0){
-    sprite_index = spr_pc1_walk_n;
-}
-else if(v_sp &gt; 0){
-    sprite_index = spr_pc1_walk_s;
-}
-else if(h_sp &lt; 0){
-    sprite_index = spr_pc1_walk_w;
-}
-else if(h_sp &gt; 0){
-    sprite_index = spr_pc1_walk_e;
-}
-
-if(h_sp != 0 || v_sp != 0){
-    image_speed = 0.2;
-}
-else{
-    image_index = 0;
-    image_speed = 0;
-}
-
-
-//Pause Menu***********************************************************
-if (var_pause==0||var_pause ==4)
-{
-    if (keyboard_check_pressed(vk_escape))
-    {
-        if (var_pause == 0)
-        {
-            var_pause = 4;
-        }
-        else
-        {
-            var_pause = 0;
-        }
-            if (var_pause == 4)
-            {
-                instance_create(1, 1, obj_pm);
-            }
-            if (var_pause == 0)
-            {
-                with (obj_pm)
-                {
-                    instance_destroy();
-                }
-            }
-    }
-}
-//Stat Menu
-if (var_pause==0||var_pause ==3)
-{ 
-    if (keyboard_check_pressed(vk_shift))
-    {
-        if (var_pause == 0)
-        {
-            var_pause = 3;
-        }
-        else
-        {
-            var_pause = 0;
-        }
-            if (var_pause == 3)
-            {
-                instance_create(1, 1, obj_stat_menu);
-            }
-            if (var_pause = 0)
-            {
-                with (obj_stat_menu)
-                {
-                    instance_destroy();
-                }
-            }
-    }
-}
-//Room Limit
-x = min(x,room_width - sprite_width);
-x = max(x,0);
-
-y = min(y,room_height - sprite_height);
-y = max(y,0);
+            <string>script_execute(state);
 </string>
           </argument>
         </arguments>

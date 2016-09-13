@@ -28,6 +28,7 @@
             <string>x = view_xview[view_current] + 700;
 y = view_yview[view_current] + 298;
 var_manu = 0;
+var_pause = 4;
 </string>
           </argument>
         </arguments>
@@ -85,7 +86,7 @@ if (var_menu = 0){
         {
             instance_destroy();
         }
-        var_pause = 0;
+        obj_lead.state = scr_Player_Move_State;
     }
 }
 //Save
@@ -163,7 +164,7 @@ if (var_menu = 5){
           <argument>
             <kind>1</kind>
             <string>//pause menu
-if (var_pause=4)
+if (var_pause==4)
 {
     draw_set_color(c_blue);
     draw_set_alpha(0.7);
