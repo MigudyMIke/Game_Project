@@ -3,8 +3,8 @@
   <caption></caption>
   <width>3000</width>
   <height>1050</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -335,14 +335,9 @@ if (!audio_is_playing (snd_zelda))
     <tile bgName="ts_inside_place" x="256" y="416" w="32" h="96" xo="544" yo="320" id="10002548" name="inst_DA8BF883" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="160" y="416" w="32" h="64" xo="448" yo="320" id="10002549" name="inst_21363B46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="192" y="416" w="64" h="96" xo="480" yo="320" id="10002550" name="inst_C7A1CEA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside_place" x="160" y="576" w="32" h="32" xo="448" yo="512" id="10002557" name="inst_69664B1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside_place" x="160" y="544" w="32" h="32" xo="448" yo="512" id="10002558" name="inst_5E9E1840" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside_place" x="160" y="512" w="32" h="32" xo="448" yo="512" id="10002559" name="inst_DFB3C36D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside_place" x="160" y="480" w="32" h="32" xo="448" yo="512" id="10002560" name="inst_3AF8082F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="160" y="608" w="128" h="64" xo="448" yo="512" id="10002561" name="inst_6C6CDEC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="256" y="576" w="32" h="32" xo="544" yo="480" id="10002562" name="inst_6A21E0A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="192" y="512" w="64" h="64" xo="480" yo="416" id="10002563" name="inst_315EBB66" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside_place" x="256" y="512" w="32" h="64" xo="560" yo="416" id="10002564" name="inst_B2467A53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="192" y="576" w="64" h="32" xo="480" yo="480" id="10002566" name="inst_48DDCE2A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="128" y="640" w="32" h="32" xo="384" yo="320" id="10002567" name="inst_E00FFBF6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="128" y="672" w="32" h="32" xo="384" yo="320" id="10002568" name="inst_FFA2E09C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -481,6 +476,14 @@ if (!audio_is_playing (snd_zelda))
     <tile bgName="ts_inside_place" x="1888" y="704" w="32" h="32" xo="336" yo="384" id="10002712" name="inst_B6386EFD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="1216" y="704" w="32" h="32" xo="336" yo="384" id="10002713" name="inst_5F9D4295" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="928" y="704" w="32" h="32" xo="336" yo="384" id="10002714" name="inst_B9363D63" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="256" y="512" w="32" h="64" xo="544" yo="416" id="10002850" name="inst_CBECFDC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="160" y="480" w="16" h="64" xo="576" yo="512" id="10002853" name="inst_7664AC9A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="160" y="544" w="16" h="64" xo="576" yo="512" id="10002854" name="inst_ACF8C586" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="176" y="592" w="16" h="16" xo="464" yo="496" id="10002855" name="inst_13239185" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="176" y="480" w="16" h="16" xo="464" yo="384" id="10002856" name="inst_F2E05D94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="176" y="512" w="16" h="64" xo="464" yo="416" id="10002857" name="inst_CC46B483" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="176" y="496" w="16" h="16" xo="464" yo="400" id="10002858" name="inst_4F1FA765" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="176" y="576" w="16" h="16" xo="464" yo="480" id="10002859" name="inst_E051FDCB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="992" y="256" w="64" h="128" xo="832" yo="896" id="10002250" name="inst_4AE6DB24" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="1120" y="256" w="64" h="128" xo="832" yo="896" id="10002251" name="inst_3A2BB460" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="992" y="192" w="64" h="48" xo="1792" yo="0" id="10002252" name="inst_B629CA0F" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -490,6 +493,13 @@ if (!audio_is_playing (snd_zelda))
     <tile bgName="ts_inside_place" x="1952" y="256" w="64" h="128" xo="832" yo="896" id="10002257" name="inst_6074931B" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="2080" y="256" w="64" h="128" xo="832" yo="896" id="10002258" name="inst_24944231" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="128" y="224" w="192" h="160" xo="928" yo="864" id="10002521" name="inst_C58F9093" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="1344" y="272" w="64" h="64" xo="1152" yo="128" id="10002860" name="inst_4B324706" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="1536" y="272" w="64" h="64" xo="1216" yo="128" id="10002861" name="inst_4C9C76B2" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="1728" y="272" w="64" h="64" xo="1216" yo="64" id="10002862" name="inst_F7706878" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="496" y="304" w="192" h="48" xo="896" yo="16" id="10002864" name="inst_FBA3AF40" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="576" y="288" w="32" h="64" xo="1296" yo="0" id="10002865" name="inst_82388A7D" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="528" y="304" w="32" h="32" xo="1216" yo="0" id="10002866" name="inst_A459CA0B" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside_place" x="624" y="304" w="32" h="32" xo="1216" yo="0" id="10002867" name="inst_14EE4E48" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
