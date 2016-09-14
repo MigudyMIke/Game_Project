@@ -93,6 +93,7 @@
     <script>scripts\scr_Player_Stats_Menu_State.gml</script>
     <script>scripts\scr_Get_Input.gml</script>
     <script>scripts\scr_Player_Wait.gml</script>
+    <script>scripts\scr_time.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_code</font>
@@ -135,6 +136,9 @@
       <object>objects\obj_key</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_time</timeline>
+  </timelines>
   <rooms name="rooms">
     <rooms name="menu ">
       <room>rooms\rm_start</room>
