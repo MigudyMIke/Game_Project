@@ -20,6 +20,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 12;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -46,6 +49,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 1;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -72,6 +78,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 2;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -98,6 +107,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 3;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -124,6 +136,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 4;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -150,6 +165,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 5;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -176,6 +194,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 6;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -202,6 +223,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 7;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -228,6 +252,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 8;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -254,6 +281,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 9;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -280,6 +310,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 10;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -306,6 +339,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 11;
+var_dn_cycle = 0;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -332,6 +368,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 12;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -358,6 +397,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 1;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -384,6 +426,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 2;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -410,6 +455,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 3;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -436,6 +484,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 4;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -462,6 +513,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 5;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -488,6 +542,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 6;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -514,6 +571,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 7;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -540,6 +600,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 8;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -566,6 +629,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 9;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -592,6 +658,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 10;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -618,6 +687,9 @@
           <argument>
             <kind>1</kind>
             <string>///time
+var_clock = 11;
+var_dn_cycle = 1;
+var_day = 0;
 </string>
           </argument>
         </arguments>
@@ -644,6 +716,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 12;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -670,6 +745,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 1;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -696,6 +774,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 2;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -722,6 +803,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 3;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -748,6 +832,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 4;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -774,6 +861,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 5;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -800,6 +890,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 6;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -826,6 +919,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 7;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -852,6 +948,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 8;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -878,6 +977,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 9;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -904,6 +1006,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 10;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -930,6 +1035,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 11;
+var_dn_cycle = 0;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -956,6 +1064,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 12;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -982,6 +1093,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 1;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1008,6 +1122,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 2;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1034,6 +1151,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 3;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1060,6 +1180,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 4;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1086,6 +1209,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 5;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1112,6 +1238,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 6;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1138,6 +1267,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 7;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1164,6 +1296,67 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 8;
+var_dn_cycle = 1;
+var_day = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>162000</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///time day 2
+var_clock = 9;
+var_dn_cycle = 1;
+var_day = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>165600</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///time day 2
+var_clock = 10;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1190,6 +1383,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 2
+var_clock = 11;
+var_dn_cycle = 1;
+var_day = 1;
 </string>
           </argument>
         </arguments>
@@ -1216,6 +1412,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 12;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1242,6 +1441,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 1;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1268,6 +1470,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 2;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1294,6 +1499,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 3;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1320,6 +1528,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 4;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1346,6 +1557,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 5;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1372,6 +1586,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 6;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1398,6 +1615,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 7;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1424,6 +1644,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 8;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1450,6 +1673,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 9;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1476,6 +1702,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 10;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1502,6 +1731,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 11;
+var_dn_cycle = 0;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1528,6 +1760,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 12;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1554,6 +1789,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 1;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1580,6 +1818,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 2;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1606,6 +1847,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 3;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1632,6 +1876,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 4;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1658,6 +1905,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 5;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1684,6 +1934,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 6;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1710,6 +1963,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 7;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1736,6 +1992,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 8;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1762,6 +2021,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 9;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1788,6 +2050,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 10;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1814,6 +2079,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 11;
+var_dn_cycle = 1;
+var_day = 2;
 </string>
           </argument>
         </arguments>
@@ -1840,6 +2108,9 @@
           <argument>
             <kind>1</kind>
             <string>///time day 3
+var_clock = 12;
+var_dn_cycle = 0;
+var_day = 3;
 </string>
           </argument>
         </arguments>

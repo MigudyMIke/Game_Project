@@ -4,12 +4,12 @@ Every room has a step speed of 60 so
 3,600 steps = 1 rl minute
 216,000 steps = 1 rl hour
 
-var_time is to keep trake of the steps.
+tl_time is to keep trake of the steps.
 var_clock is a visual for the in game clock that the player sees.
 the reason why these two var's are sperate is because I don't know the equasion to make these into one. 
 
-var_dn_cycle is to keep track if it's day or night.
-var_day is to keep track of what day it is. 
+var_dn_cycle is to keep track if it's day or night. 0 is am and 1 is pm.
+var_day is to keep track of what day it is. 0 is day one, 1 day 2, and 2 day 3.
 24 rl minutes will be one day cycal in game and 1 rl minute will be 1 hour in game.
 So every day will be 86,400 steps for a total of 259,200 steps for all days put together. 
       step chart

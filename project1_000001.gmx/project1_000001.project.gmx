@@ -94,6 +94,7 @@
     <script>scripts\scr_Get_Input.gml</script>
     <script>scripts\scr_Player_Wait.gml</script>
     <script>scripts\scr_time.gml</script>
+    <script>scripts\scr_hud.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_code</font>
@@ -101,6 +102,7 @@
     <font>fonts\fnt_op_st</font>
     <font>fonts\fnt_op_title</font>
     <font>fonts\fnt_op_bace</font>
+    <font>fonts\fnt_time</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
@@ -135,6 +137,9 @@
     <objects name="pick up">
       <object>objects\obj_key</object>
     </objects>
+    <objects name="random">
+      <object>objects\obj_timeline_start</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_time</timeline>
@@ -152,7 +157,7 @@
       <room>rooms\rm_hall_a2</room>
     </rooms>
     <room>rooms\rm_blank</room>
-    <room>rooms\rm_hotel_room</room>
+    <room>rooms\rm_hotel_room_tutorial</room>
     <room>rooms\rm_hotel_hall</room>
     <rooms name="day 1">
       <room>rooms\rm_tutorial</room>
