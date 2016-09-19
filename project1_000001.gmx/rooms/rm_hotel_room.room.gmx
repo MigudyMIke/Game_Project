@@ -62,8 +62,7 @@ if (!audio_is_playing (snd_zelda))
   <instances>
     <instance objName="obj_block" x="224" y="416" name="inst_4060EA2C" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1408" y="416" name="inst_C573CF6A" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="obj_timeline_start" x="256" y="192" name="inst_42C57302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_locked" x="1280" y="352" name="inst_D9A29DC1" locked="0" code="scr_init_npc_dialogue_variables(1);&#xA;&#xA;dialogue[1] = &quot;You need a key.&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;&#xA;&#xA;var_rm_next = rm_hotel_hall_tutorial;&#xA;X = 448;&#xA;Y = 992;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="1280" y="352" name="inst_1C147D66" locked="0" code="var_rm_next = rm_hotel_hall;&#xA;X = 448;&#xA;Y = 352;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside_place" x="256" y="192" w="192" h="192" xo="576" yo="0" id="10002716" name="inst_DB76A14F" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
