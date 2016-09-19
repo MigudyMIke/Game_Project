@@ -19,3 +19,12 @@ globalvar X;
 X = 0;
 globalvar Y;
 Y = 0;
+//time var
+globalvar var_time;
+var_time = 0;
+globalvar var_clock;
+var_clock = 0;
+globalvar var_dn_cycle;
+var_dn_cycle = 0;
+globalvar var_day;
+var_day = 0;

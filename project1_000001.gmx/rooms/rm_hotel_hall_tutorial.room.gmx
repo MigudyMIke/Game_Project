@@ -62,7 +62,7 @@ if (!audio_is_playing (snd_zelda))
   <instances>
     <instance objName="obj_block" x="96" y="384" name="inst_504BC219" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="160" y="352" name="inst_C2544F96" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="992" y="704" name="inst_B56DEC7E" locked="0" code="var_rm_next = rm_hotel_room;&#xA;X = 448;&#xA;Y = 1280;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="992" y="704" name="inst_B56DEC7E" locked="0" code="var_rm_next = rm_hotel_hall_tutorial;&#xA;X = 448;&#xA;Y = 1280;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked" x="1120" y="704" name="inst_BEEA099E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked" x="1952" y="704" name="inst_8E0AFA82" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked" x="2080" y="704" name="inst_6C9AC4EA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
