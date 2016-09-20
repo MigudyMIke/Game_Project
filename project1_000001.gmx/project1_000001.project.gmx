@@ -94,6 +94,8 @@
     <script>scripts\scr_Get_Input.gml</script>
     <script>scripts\scr_Get_Interaction.gml</script>
     <script>scripts\scr_Player_Wait_For_Dialogue.gml</script>
+    <script>scripts\scr_time.gml</script>
+    <script>scripts\scr_hud.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_code</font>
@@ -101,6 +103,7 @@
     <font>fonts\fnt_op_st</font>
     <font>fonts\fnt_op_title</font>
     <font>fonts\fnt_op_bace</font>
+    <font>fonts\fnt_time</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lead</object>
@@ -137,6 +140,9 @@
     </objects>
     <object>objects\obj_Interactive</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_time</timeline>
+  </timelines>
   <rooms name="rooms">
     <rooms name="menu ">
       <room>rooms\rm_start</room>
