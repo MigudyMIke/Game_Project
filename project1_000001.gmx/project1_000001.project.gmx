@@ -149,17 +149,30 @@
       <room>rooms\rm_game_load</room>
       <room>rooms\rm_options</room>
     </rooms>
-    <rooms name="test">
-      <room>rooms\rm_test</room>
-      <room>rooms\rm_test2</room>
-      <room>rooms\rm_hall_a1</room>
-      <room>rooms\rm_hall_a2</room>
-    </rooms>
     <room>rooms\rm_blank</room>
-    <room>rooms\rm_hotel_room</room>
-    <room>rooms\rm_hotel_hall</room>
-    <rooms name="day 1">
+    <rooms name="opening">
       <room>rooms\rm_tutorial</room>
+      <room>rooms\rm_hotel_room_opening</room>
+      <room>rooms\rm_hotel_hall_opening</room>
+    </rooms>
+    <rooms name="hotel room">
+      <room>rooms\rm_hotel_room</room>
+      <room>rooms\rm_hotel_hall</room>
+    </rooms>
+    <rooms name="hotel Loby">
+      <room>rooms\rm_hotel_loby</room>
+      <room>rooms\rm_hotel_bar</room>
+    </rooms>
+    <rooms name="expasion hall">
+      <room>rooms\rm_allie_a_E</room>
+      <room>rooms\rm_allie_b</room>
+      <room>rooms\rm_allie_c</room>
+      <room>rooms\rm_allie_d</room>
+    </rooms>
+    <rooms name="tornament hall">
+      <room>rooms\rm_tornament_hall</room>
+      <room>rooms\rm_tornament</room>
+      <room>rooms\rm_chill_E</room>
     </rooms>
   </rooms>
   <help>

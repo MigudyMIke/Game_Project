@@ -61,7 +61,7 @@ if (!audio_is_playing (snd_zelda))
   </views>
   <instances>
     <instance objName="obj_locked" x="1824" y="480" name="inst_2F201864" locked="0" code="dialogue[1] = &quot;You need a key.&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;&#xA;&#xA;scr_init_npc_dialogue_variables();" scaleX="2.06451606750488" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key" x="2816" y="544" name="inst_EAEF520A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key" x="2816" y="384" name="inst_EAEF520A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc" x="992" y="384" name="inst_0537F599" locked="0" code="sprite_index = spr_pc1_walk_s;&#xA;&#xA;dialogue[1] = &quot;Hello there good buddy&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;&#xA;scr_init_npc_dialogue_variables();" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
