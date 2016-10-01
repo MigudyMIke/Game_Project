@@ -311,7 +311,7 @@ var_day = 0;
             <kind>1</kind>
             <string>///time
 var_clock = 10;
-var_dn_cycle = 0;
+var_dn_cycle = 1;
 var_day = 0;
 </string>
           </argument>

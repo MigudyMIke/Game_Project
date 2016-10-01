@@ -73,6 +73,7 @@
       <background>background\ts_convention_hall</background>
       <background>background\background11</background>
       <background>background\ts_inside_place</background>
+      <background>background\ts_sales</background>
     </backgrounds>
     <background>background\bg_hall</background>
     <background>background\background9</background>
@@ -112,6 +113,7 @@
     </objects>
     <objects name="npc">
       <object>objects\obj_npc</object>
+      <object>objects\obj_npc_sales</object>
       <object>objects\obj_npc_move_n</object>
       <object>objects\obj_npc_move_s</object>
       <object>objects\obj_npc_move_e</object>
@@ -120,6 +122,7 @@
     <objects name="trigger">
       <object>objects\obj_rm_next</object>
       <object>objects\obj_locked</object>
+      <object>objects\obj_tl_control</object>
     </objects>
     <objects name="menu">
       <object>objects\obj_sm</object>

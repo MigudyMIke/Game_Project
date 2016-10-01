@@ -30,6 +30,7 @@ alpha = 0;
 print = "";
 time = 0;
 depth = -10000000;
+var_choose = 0;
 </string>
           </argument>
         </arguments>

@@ -62,7 +62,8 @@ if (!audio_is_playing (snd_zelda))
   <instances>
     <instance objName="obj_locked" x="1824" y="480" name="inst_2F201864" locked="0" code="dialogue[1] = &quot;You need a key.&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;&#xA;&#xA;scr_init_npc_dialogue_variables();" scaleX="2.06451606750488" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="2816" y="384" name="inst_EAEF520A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_npc" x="992" y="384" name="inst_0537F599" locked="0" code="sprite_index = spr_pc1_walk_s;&#xA;&#xA;dialogue[1] = &quot;Hello there good buddy&quot;;&#xA;dialogue[0] = &quot;I AM ERROR.&quot;;&#xA;scr_init_npc_dialogue_variables();" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_npc" x="992" y="384" name="inst_0537F599" locked="0" code="sprite_index = spr_pc1_walk_s;&#xA;&#xA;//text&#xA;dialogue[0] = &quot;Hello there good buddy&quot;;&#xA;dialogue[1] = &quot;What's your name?#[UP]Why? #[DOWN]James.&quot;;&#xA;&#xA;scr_init_npc_dialogue_variables();&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tl_control" x="0" y="0" name="inst_5BDF8F8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_text" x="160" y="256" w="352" h="96" xo="0" yo="0" id="10001517" name="inst_B89CDA03" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

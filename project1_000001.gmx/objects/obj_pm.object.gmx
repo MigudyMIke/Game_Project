@@ -29,6 +29,7 @@
 y = view_yview[view_current] + 298;
 var_manu = 0;
 var_pause = 4;
+timeline_running = false;
 </string>
           </argument>
         </arguments>
@@ -86,6 +87,8 @@ if (var_menu = 0){
         {
             instance_destroy();
         }
+        timeline_running = true;
+        timeline_loop = true;
         obj_lead.state = scr_Player_Move_State;
     }
 }

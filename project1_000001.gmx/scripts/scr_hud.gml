@@ -11,7 +11,7 @@ draw_set_alpha(1);
 draw_set_colour(c_white);
 if (var_dn_cycle = 1)
 {
-    draw_text(view_xview[view_current] + 705, view_xview[view_current] + 0, string(var_clock) + " pm");
+    draw_text(view_xview[view_current] + 705, view_xview[view_current] + 0, string(var_clock) + " pm " + string(var_day));
 }else{
-    draw_text(view_xview[view_current] + 705, view_xview[view_current] + 0, string(var_clock) + " am");
+    draw_text(view_xview[view_current] + 705, view_xview[view_current] + 0, string(var_clock) + " am" + string(var_day));
 }    
