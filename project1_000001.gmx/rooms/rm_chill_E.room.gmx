@@ -6,11 +6,20 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>var_menu = 0
+if !instance_exists( obj_lead )
+{
+    instance_create( 160, 480, obj_lead);
+}
+if (!audio_is_playing (snd_zelda))
+{
+    audio_stop_all();
+    audio_play_sound(snd_zelda, 100, true);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

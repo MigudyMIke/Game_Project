@@ -10,6 +10,8 @@
     <sound>sound\snd_music</sound>
     <sound>sound\snd_zelda</sound>
     <sound>sound\snd_select_bad</sound>
+    <sound>sound\snd_clock_ticking</sound>
+    <sound>sound\snd_12</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="pc">
@@ -60,6 +62,7 @@
       <sprite>sprites\spr_tutorial_move</sprite>
     </sprites>
     <sprite>sprites\spr_key</sprite>
+    <sprite>sprites\spr_type</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tile set">
@@ -123,6 +126,9 @@
       <object>objects\obj_rm_next</object>
       <object>objects\obj_locked</object>
       <object>objects\obj_tl_control</object>
+      <object>objects\obj_rm_type_to_lobby</object>
+      <object>objects\obj_rm_type</object>
+      <object>objects\obj_rm_type_blank</object>
     </objects>
     <objects name="menu">
       <object>objects\obj_sm</object>
@@ -135,13 +141,15 @@
     <objects name="inter active">
       <object>objects\obj_ran</object>
     </objects>
-    <object>objects\obj_talk</object>
-    <object>objects\obj_enter</object>
-    <object>objects\obj_pick_up</object>
     <objects name="pick up">
       <object>objects\obj_key</object>
     </objects>
     <object>objects\obj_Interactive</object>
+    <objects name="icon">
+      <object>objects\obj_pick_up</object>
+      <object>objects\obj_talk</object>
+      <object>objects\obj_enter</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_time</timeline>
@@ -162,20 +170,31 @@
       <room>rooms\rm_hotel_room</room>
       <room>rooms\rm_hotel_hall</room>
     </rooms>
-    <rooms name="hotel Loby">
-      <room>rooms\rm_hotel_loby</room>
-      <room>rooms\rm_hotel_bar</room>
+    <rooms name="hotel Lobby">
+      <room>rooms\rm_hotel_lobby_E</room>
+      <room>rooms\rm_hotel_lobby_A</room>
+      <room>rooms\rm_hotel_lobby_N</room>
+      <room>rooms\rm_hotel_bar_E</room>
     </rooms>
     <rooms name="expasion hall">
       <room>rooms\rm_allie_a_E</room>
-      <room>rooms\rm_allie_b</room>
-      <room>rooms\rm_allie_c</room>
-      <room>rooms\rm_allie_d</room>
+      <room>rooms\rm_allie_a_A</room>
+      <room>rooms\rm_allie_b_E</room>
+      <room>rooms\rm_allie_b_A</room>
+      <room>rooms\rm_allie_c_E</room>
+      <room>rooms\rm_allie_c_A</room>
+      <room>rooms\rm_allie_d_E</room>
+      <room>rooms\rm_allie_d_A</room>
     </rooms>
     <rooms name="tornament hall">
       <room>rooms\rm_tornament_hall</room>
       <room>rooms\rm_tornament</room>
       <room>rooms\rm_chill_E</room>
+    </rooms>
+    <rooms name="outside">
+      <room>rooms\rm_outside_E</room>
+      <room>rooms\rm_outside_A</room>
+      <room>rooms\rm_outside_N</room>
     </rooms>
   </rooms>
   <help>

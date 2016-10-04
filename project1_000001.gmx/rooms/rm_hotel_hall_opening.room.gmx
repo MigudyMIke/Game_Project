@@ -50,7 +50,7 @@ if (!audio_is_playing (snd_zelda))
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1680" hport="1050" hborder="1680" vborder="1050" hspeed="100" vspeed="100"/>
+    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1440" hport="900" hborder="1680" vborder="1050" hspeed="100" vspeed="100"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -61,8 +61,8 @@ if (!audio_is_playing (snd_zelda))
   </views>
   <instances>
     <instance objName="obj_block" x="96" y="384" name="inst_504BC219" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="160" y="352" name="inst_C2544F96" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="992" y="704" name="inst_B56DEC7E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="160" y="352" name="inst_C2544F96" locked="0" code="X = 2784;&#xA;Y = 480;&#xA;var_rm_next_e = rm_hotel_lobby_E;&#xA;var_rm_next_a = rm_hotel_lobby_A;&#xA;var_rm_next_n = rm_hotel_lobby_N;" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="992" y="704" name="inst_B56DEC7E" locked="0" code="X = 1280;&#xA;Y = 480;&#xA;var_rm_next_e = rm_hotel_room_opening;&#xA;var_rm_next_a = rm_hotel_room_opening;&#xA;var_rm_next_n = rm_hotel_room_opening;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked" x="1120" y="704" name="inst_BEEA099E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked" x="1952" y="704" name="inst_8E0AFA82" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked" x="2080" y="704" name="inst_6C9AC4EA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>

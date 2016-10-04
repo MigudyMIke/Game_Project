@@ -6,11 +6,20 @@
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>var_menu = 0
+if !instance_exists( obj_lead )
+{
+    instance_create( 1248, 480, obj_lead);
+}
+if (!audio_is_playing (snd_zelda))
+{
+    audio_stop_all();
+    audio_play_sound(snd_zelda, 100, true);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -50,7 +59,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="obj_rm_type_to_lobby" x="0" y="0" name="inst_504FEC12" locked="0" code="var_rm_next_e = rm_allie_a_E;&#xA;var_rm_next_a = rm_allie_a_A;&#xA;var_rm_next_n = rm_hotel_lobby_N;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles>
     <tile bgName="ts_inside_place" x="64" y="128" w="64" h="32" xo="128" yo="464" id="10003317" name="inst_DA7B5D35" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside_place" x="64" y="160" w="64" h="32" xo="128" yo="464" id="10003318" name="inst_A2809441" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

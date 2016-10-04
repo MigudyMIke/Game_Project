@@ -26,3 +26,6 @@ globalvar var_dn_cycle;
 var_dn_cycle = 0;
 globalvar var_day;
 var_day = 0;
+globalvar var_day_type;
+var_day_type = 0;
+

@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_rm_next</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>-10000000</depth>
   <persistent>0</persistent>
   <parentName>obj_Interactive</parentName>
@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>var_rm_next = 0;
+var_rm_next_e = 0;
+var_rm_next_a = 0;
+var_rm_next_n = 0;
 X = 0;
 Y = 0;
 instance_create ( x, y - 64, obj_enter);
@@ -34,7 +37,7 @@ instance_create ( x, y - 64, obj_enter);
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_lead">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,9 +54,18 @@ instance_create ( x, y - 64, obj_enter);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(var_rm_next);
-obj_lead.x = X;
-obj_lead.y = Y;
+            <string>if (var_day_type = 0)
+{
+   var_rm_next = var_rm_next_e;
+}
+if (var_day_type = 1)
+{
+    var_rm_next = var_rm_next_a;
+}
+if (var_day_type = 2)
+{
+    var_rm_next = var_rm_next_n;
+}
 </string>
           </argument>
         </arguments>
@@ -76,12 +88,13 @@ obj_lead.y = Y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_white);
+            <string>/*draw_set_colour(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(fnt_code);
 draw_self();
 draw_text(self.x, self.y, string(room_get_name(var_rm_next)) + "#x " + string(X) + " y " + string(Y));
+
 </string>
           </argument>
         </arguments>

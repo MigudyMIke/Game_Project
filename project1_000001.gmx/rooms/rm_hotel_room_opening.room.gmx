@@ -13,7 +13,7 @@
   <code>var_menu = 0
 if !instance_exists( obj_lead )
 {
-    instance_create( 160, 512, obj_lead);
+    instance_create( 160, 480, obj_lead);
 }
 if (!audio_is_playing (snd_zelda))
 {
@@ -50,7 +50,7 @@ if (!audio_is_playing (snd_zelda))
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1680" hport="1050" hborder="1680" vborder="1050" hspeed="100" vspeed="100"/>
+    <view visible="-1" objName="obj_lead" xview="0" yview="0" wview="1680" hview="1050" xport="0" yport="0" wport="1440" hport="900" hborder="1680" vborder="1050" hspeed="100" vspeed="100"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -62,7 +62,7 @@ if (!audio_is_playing (snd_zelda))
   <instances>
     <instance objName="obj_block" x="224" y="416" name="inst_4060EA2C" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1408" y="416" name="inst_C573CF6A" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tl_control" x="224" y="160" name="inst_4F53170C" locked="0" code="timeline_index = tl_time;&#xA;timeline_position = 36005;&#xA;timeline_running = false;&#xA;timeline_loop = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="1280" y="256" name="inst_A5E17FAA" locked="0" code="X = 736;&#xA;Y = 480;&#xA;var_rm_next_e = rm_hotel_hall_opening;&#xA;var_rm_next_a = rm_hotel_hall_opening;&#xA;var_rm_next_n = rm_hotel_hall_opening;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside_place" x="256" y="192" w="192" h="192" xo="576" yo="0" id="10002716" name="inst_DB76A14F" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

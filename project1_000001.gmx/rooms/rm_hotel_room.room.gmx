@@ -13,7 +13,7 @@
   <code>var_menu = 0
 if !instance_exists( obj_lead )
 {
-    instance_create( 160, 512, obj_lead);
+    instance_create( 160, 480, obj_lead);
 }
 if (!audio_is_playing (snd_zelda))
 {
@@ -62,6 +62,7 @@ if (!audio_is_playing (snd_zelda))
   <instances>
     <instance objName="obj_block" x="224" y="416" name="inst_4060EA2C" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="1408" y="416" name="inst_C573CF6A" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="1280" y="256" name="inst_4FF724AF" locked="0" code="X = 736;&#xA;Y = 480;&#xA;var_rm_next_e = rm_hotel_hall;&#xA;var_rm_next_a = rm_hotel_hall;&#xA;var_rm_next_n = rm_hotel_hall;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside_place" x="256" y="192" w="192" h="192" xo="576" yo="0" id="10002716" name="inst_DB76A14F" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

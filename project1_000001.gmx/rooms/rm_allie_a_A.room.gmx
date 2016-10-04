@@ -60,7 +60,7 @@ if (!audio_is_playing (snd_zelda))
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_rm_type_to_lobby" x="0" y="0" name="inst_0179BC11" locked="0" code="var_rm_next_e = rm_allie_a_E;&#xA;var_rm_next_a = rm_allie_a_A;&#xA;var_rm_next_n = rm_hotel_lobby_N;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_type_to_lobby" x="0" y="0" name="inst_27E85214" locked="0" code="var_rm_next_e = rm_allie_a_E;&#xA;var_rm_next_a = rm_allie_a_A;&#xA;var_rm_next_n = rm_hotel_lobby_N;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside_place" x="64" y="128" w="64" h="32" xo="128" yo="464" id="10003317" name="inst_DA7B5D35" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

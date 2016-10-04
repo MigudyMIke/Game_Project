@@ -1,7 +1,7 @@
 ///scr_Get_Interaction
 
 //Check for interactive objects
-interaction = collision_rectangle(x - 32, y - 128, x + 32, y + 128, obj_Interactive, false, true);
+interaction = collision_rectangle(x - 32, 0, x + 32, 1680, obj_Interactive, false, true);
 if(interaction != noone){
     switch(interaction.object_index){
         //If it's an NPC
@@ -13,9 +13,11 @@ if(interaction != noone){
         break;
         //If it's an unlocked door
         case obj_rm_next:
-            room_goto(var_rm_next);
-            obj_lead.x = X;
-            obj_lead.y = Y;
+            if (keyboard_check_pressed(vk_space)){
+                room_goto(interaction.var_rm_next);
+                obj_lead.x = X;
+                obj_lead.y = Y;
+                }
         break;
         //If it's a locked door
         case obj_locked:

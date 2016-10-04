@@ -9,7 +9,12 @@ var_clock is a visual for the in game clock that the player sees.
 the reason why these two var's are sperate is because I don't know the equasion to make these into one. 
 
 var_dn_cycle is to keep track if it's day or night. 0 is am and 1 is pm.
-var_day is to keep track of what day it is. 0 is day one, 1 day 2, and 2 day 3.
+var_day is to keep track of what day it is. 1 is day one, 2 day 2, and 3 day 3.
+The day will have 3 types(var_day_type) each lasting 8 rl minutes. 
+Type one is early day(0 witch is 4 am to 12 pm), 
+type two is after noon(1 witch is 1 pm to 9 pm), 
+type three is night time(2 witch is 10 pm to 3 am). 
+Rooms will change or even be closed off during some times of the day.
 24 rl minutes will be one day cycal in game and 1 rl minute will be 1 hour in game.
 So every day will be 86,400 steps for a total of 259,200 steps for all days put together. 
       step chart
